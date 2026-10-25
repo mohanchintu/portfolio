@@ -1,0 +1,45 @@
+export const profileData = {
+  name: "Mohan P",
+  displayHandle: "MOHAN-POLE",
+  occupation: "ASSOCIATE SOFTWARE DEVELOPER",
+  role: "Aspiring Software Engineer & Full-Stack Developer",
+  corporation: "VISTEX",
+  availability: "OPEN FOR HIRE",
+  level: 48,
+  coins: 1425,
+  avatar: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=300&auto=format&fit=crop&q=80",
+  motto: "SAEPE OMNIS NEQUE NUMQUAM RECUSANDAE LAUDANTIUM. ARCHITECTING SCALABLE SYSTEMS & REAL-TIME DATA PIPELINES.",
+  email: "mohan83676@gmail.com",
+  phone: "+91 8367629463",
+  github: "https://github.com/Mohan-pole",
+  linkedin: "https://linkedin.com/in/Mohan-pole",
+  summary: "Associate Software Developer with experience in SAP ABAP and full-stack web development using the MERN stack. Skilled in backend services, and frontend development with React.js. Familiar with machine learning techniques and data-driven problem solving. Strong foundation in data structures, algorithms, OOP, and database management.",
+  education: [
+    {
+      institution: "VNR Vignana Jyothi Institute of Engineering and Technology, Hyderabad",
+      degree: "B. Tech in CSE – Data Science",
+      score: "CGPA: 8.7",
+      period: "2021 - 2025"
+    },
+    {
+      institution: "Sri Chaitanya Junior College, Hyderabad",
+      degree: "Intermediate Education",
+      score: "96.6%",
+      period: "2019 - 2021"
+    }
+  ],
+  skills: {
+    programming: ["C++", "Python", "JavaScript"],
+    frontend: ["HTML", "CSS", "React.js", "TailwindCSS"],
+    backend: ["Node.js", "Express.js", "RESTful APIs"],
+    database: ["MongoDB", "MySQL"],
+    technologies: ["MERN Stack", "Git", "GitHub", "SAP ABAP"],
+    concepts: ["Data Structures", "Algorithms", "OOP", "DBMS", "Operating Systems", "Machine Learning"]
+  },
+  stats: {
+    problemSolving: 92,
+    systemDesign: 88,
+    cleanCode: 95,
+    dataPipelines: 94
+  }
+};

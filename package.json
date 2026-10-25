@@ -1,0 +1,12 @@
+{
+  "name": "mohan-portfolio",
+  "version": "1.0.0",
+  "description": "Sci-Fi HUD Gaming Web Portfolio for Mohan P",
+  "scripts": {
+    "start": "node start.js",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "deploy": "npm --prefix client run deploy"
+  }
+}

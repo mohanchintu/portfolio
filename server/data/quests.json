@@ -1,0 +1,51 @@
+{
+  "activeQuest": {
+    "line": "THE MERN SKILL-UP LINE",
+    "name": "REACT WEBSITE",
+    "goal": "BUILD THIS WEBSITE, IMPLEMENT A FULL REACT WEBSITE WITH MULTIPLE ROUTERS, UI ELEMENTS AND TRICKY STYLING. MAKE IT ALL WORK GREAT!",
+    "status": "IN PROGRESS",
+    "progressPercent": 95,
+    "rewards": [
+      { "type": "XP", "amount": "+5", "icon": "sparkles" },
+      { "type": "COINS", "amount": "+25", "icon": "coins" }
+    ]
+  },
+  "questPool": [
+    {
+      "id": "q1",
+      "line": "THE DATA STRUCTURE LINE",
+      "name": "5-STAR PROBLEM SOLVER",
+      "goal": "SOLVE COMPLEX DYNAMIC PROGRAMMING & GRAPH PROBLEMS ON HACKERRANK AND ATTAIN 5-STAR REPUTATION.",
+      "status": "AVAILABLE",
+      "progressPercent": 80,
+      "rewards": [
+        { "type": "XP", "amount": "+15", "icon": "sparkles" },
+        { "type": "COINS", "amount": "+50", "icon": "coins" }
+      ]
+    },
+    {
+      "id": "q2",
+      "line": "THE ENTERPRISE BACKEND LINE",
+      "name": "XML ENGINE TUNING",
+      "goal": "BENCHMARK AND STREAMLINE SERIALIZATION PIPELINES FOR ZERO-LOSS ENTERPRISE TRANSACTIONS.",
+      "status": "COMPLETED",
+      "progressPercent": 100,
+      "rewards": [
+        { "type": "XP", "amount": "+20", "icon": "sparkles" },
+        { "type": "COINS", "amount": "+75", "icon": "coins" }
+      ]
+    },
+    {
+      "id": "q3",
+      "line": "THE MACHINE LEARNING LINE",
+      "name": "QUANTUM COMPUTING DEEP DIVE",
+      "goal": "RESEARCH QUANTUM SUPERPOSITION ALGORITHMS AND EXPAND CLASSIFIER ACCURACY BEYOND 98%.",
+      "status": "AVAILABLE",
+      "progressPercent": 40,
+      "rewards": [
+        { "type": "XP", "amount": "+30", "icon": "sparkles" },
+        { "type": "COINS", "amount": "+100", "icon": "coins" }
+      ]
+    }
+  ]
+}
