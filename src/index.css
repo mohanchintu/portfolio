@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(16, 185, 129, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.6);
+}
+
+/* Glassmorphism Classes */
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(16, 185, 129, 0.15);
+}
+
+.glass-panel-dark {
+  background: rgba(14, 31, 24, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.glass-card {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(0, 194, 116, 0.2);
+}
+
+/* iPhone Device Mockup Frame */
+.iphone-frame {
+  position: relative;
+  border-radius: 44px;
+  box-shadow: 
+    0 0 0 10px #1E293B,
+    0 0 0 12px rgba(16, 185, 129, 0.3),
+    0 25px 50px -12px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  background: #000;
+}
+
+.iphone-frame-white {
+  position: relative;
+  border-radius: 44px;
+  box-shadow: 
+    0 0 0 10px #E2E8F0,
+    0 0 0 12px rgba(16, 185, 129, 0.25),
+    0 25px 50px -12px rgba(0, 30, 20, 0.2);
+  overflow: hidden;
+  background: #fff;
+}
+
+/* Dynamic Island */
+.dynamic-island {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96px;
+  height: 24px;
+  background: #000;
+  border-radius: 14px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* Figma Green Glow Radiance */
+.figma-radial-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 194, 116, 0.22) 0%, rgba(0, 194, 116, 0.04) 50%, transparent 75%);
+}
+
+.figma-gradient-card {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.12) 0%, rgba(5, 150, 105, 0.03) 100%);
+}
