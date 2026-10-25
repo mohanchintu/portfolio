@@ -6,7 +6,7 @@ import ResumeModal from './components/ResumeModal';
 import ContactModal from './components/ContactModal';
 
 export default function App() {
-  const [viewMode, setViewMode] = useState('slides'); // 'slides' or 'web'
+  const [viewMode, setViewMode] = useState('web'); // 'web' by default for clean, keen experience
   const [darkMode, setDarkMode] = useState(true);
   const [resumeModalOpen, setResumeModalOpen] = useState(false);
   const [contactModalOpen, setContactModalOpen] = useState(false);

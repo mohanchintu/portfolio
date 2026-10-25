@@ -291,25 +291,25 @@ export const portfolioData = {
     }
   ],
 
-  // 18 Slides matching the Figma Community Template Structure
+  // 18 Structured Sections matching the Green Mobile UI Template
   slides: [
-    { id: 1, title: "Cover Page", category: "Cover", sub: "2025/2026 Portfolio 作品集" },
-    { id: 2, title: "Table of Contents", category: "Directory", sub: "01 项目 / 02 经历 / 03 技能 / 04 荣誉" },
-    { id: 3, title: "Product Background", category: "Background", sub: "个人概述 & 核心工程指标" },
-    { id: 4, title: "Research & Architecture", category: "Architecture", sub: "4-Tier 分层架构与全栈模型" },
-    { id: 5, title: "Developer Persona", category: "Profile", sub: "开发者画像 & 能力雷达" },
-    { id: 6, title: "Engineering Pain Points", category: "Case Study", sub: "痛点拆解与技术解决方案" },
-    { id: 7, title: "Core Modules Matrix", category: "Features", sub: "三大核心模块全景矩阵" },
-    { id: 8, title: "Journey & Pipeline Map", category: "Journey", sub: "工程研发与成长流转链路" },
-    { id: 9, title: "Project Chapter 01", category: "Chapter", sub: "移动端与全栈产品设计" },
-    { id: 10, title: "Fitness App Design Flow", category: "Mobile UI", sub: "MERN Stack 运动健身移动端" },
-    { id: 11, title: "Screen Deep Dive: Fitness", category: "UI Analysis", sub: "核心页面分解与实时追踪" },
-    { id: 12, title: "Phishing Detection UI", category: "Security UI", sub: "威胁检测平台与 Heuristic Scanner" },
-    { id: 13, title: "Detail Screen Showcase", category: "UI Flow", sub: "多界面流转与交互状态" },
-    { id: 14, title: "Design System & Tokens", category: "Design System", sub: "视觉规范与组件库" },
-    { id: 15, title: "ML Pipeline Analysis", category: "ML Project", sub: "乳腺癌分类 (97.2%) 流程拆解" },
-    { id: 16, title: "Enterprise Merchant Office", category: "Enterprise", sub: "Vistex SAP ABAP 后台管理系统" },
-    { id: 17, title: "Full Skills Matrix", category: "Skills", sub: "技术栈能力全景图" },
-    { id: 18, title: "Contact & Collaborations", category: "Connect", sub: "致谢、简历下载与联系方式" }
+    { id: 1, title: "Cover Overview", category: "Cover", sub: "2025/2026 Official Software Engineering Portfolio" },
+    { id: 2, title: "Directory & Index", category: "Directory", sub: "01 Projects · 02 Experience · 03 Tech Stack · 04 Honors" },
+    { id: 3, title: "Executive Background", category: "Background", sub: "Professional Summary & Key Engineering Metrics" },
+    { id: 4, title: "System Architecture", category: "Architecture", sub: "4-Tier Enterprise Full-Stack Model" },
+    { id: 5, title: "Developer Profile", category: "Profile", sub: "Core Strengths, Skill Radar & Domain Competency" },
+    { id: 6, title: "Enterprise Case Study", category: "Case Study", sub: "Vistex Engineering Challenges & High-Impact Solutions" },
+    { id: 7, title: "Core Modules Matrix", category: "Features", sub: "Full-Stack, Enterprise Backend & AI Systems" },
+    { id: 8, title: "Career & Delivery Journey", category: "Journey", sub: "Academic Foundation to Full-Time Enterprise Software Engineering" },
+    { id: 9, title: "Mobile & Full-Stack Projects", category: "Chapter", sub: "Client Applications & System Implementations" },
+    { id: 10, title: "Fitness App Design Flow", category: "Mobile UI", sub: "MERN Stack Health & Biometric Tracking Platform" },
+    { id: 11, title: "Screen Deep-Dive: Fitness", category: "UI Analysis", sub: "Real-Time Biometrics & Workout Intelligence" },
+    { id: 12, title: "Phishing Detection Platform", category: "Security UI", sub: "Regex Heuristic Threat Matcher & Scanner" },
+    { id: 13, title: "Multi-Screen Flow Showcase", category: "UI Flow", sub: "Responsive Screen Flow & State Transitions" },
+    { id: 14, title: "Design System & Tokens", category: "Design System", sub: "Color Tokens, Typography & Component Standards" },
+    { id: 15, title: "Machine Learning Pipeline", category: "ML Project", sub: "Breast Cancer Classification (97.2% Accuracy)" },
+    { id: 16, title: "Enterprise Merchant Office", category: "Enterprise", sub: "Vistex SAP ABAP Agreement Templates & XML Backend" },
+    { id: 17, title: "Full Technical Matrix", category: "Skills", sub: "Comprehensive Technical Stack & Proficiency Levels" },
+    { id: 18, title: "Contact & Connect", category: "Connect", sub: "Professional Contact, Resume PDF & Collaborations" }
   ]
 };

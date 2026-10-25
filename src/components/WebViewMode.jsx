@@ -34,7 +34,7 @@ export default function WebViewMode({ onOpenResume, onOpenContact, onSwitchToSli
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 dark:bg-emerald-500/15 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-semibold">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                <span>GREEN MOBILE UI PORTFOLIO · 绿色移动端UI设计规范</span>
+                <span>GREEN MOBILE UI PORTFOLIO · MODERN FULL-STACK & ENTERPRISE</span>
               </div>
 
               <div>
@@ -148,7 +148,7 @@ export default function WebViewMode({ onOpenResume, onOpenContact, onSwitchToSli
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-xs font-mono text-emerald-600 dark:text-emerald-400 tracking-wider uppercase font-bold">
-              WORK EXPERIENCE · 企业工程经验
+              WORK EXPERIENCE · ENTERPRISE IMPACT
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-1">
               Associate Software Developer @ Vistex
@@ -197,7 +197,7 @@ export default function WebViewMode({ onOpenResume, onOpenContact, onSwitchToSli
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-xs font-mono text-emerald-600 dark:text-emerald-400 tracking-wider uppercase font-bold">
-              ARCHITECTURE · 系统架构分层
+              ARCHITECTURE · 4-TIER FULL-STACK MODEL
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-1">
               End-to-End Enterprise Full-Stack Architecture
@@ -270,7 +270,7 @@ export default function WebViewMode({ onOpenResume, onOpenContact, onSwitchToSli
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
             <div>
               <span className="text-xs font-mono text-emerald-600 dark:text-emerald-400 tracking-wider uppercase font-bold">
-                PROJECT PORTFOLIO · 核心项目实战
+                PROJECT PORTFOLIO · PRODUCTION CASE STUDIES
               </span>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-1">
                 Interactive Engineering Projects
@@ -568,7 +568,7 @@ export default function WebViewMode({ onOpenResume, onOpenContact, onSwitchToSli
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-xs font-mono text-emerald-600 dark:text-emerald-400 tracking-wider uppercase font-bold">
-              TECH STACK · 技术栈与能力全景
+              TECH STACK · TECHNICAL PANORAMIC
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-1">
               Comprehensive Technical Competencies
@@ -715,7 +715,7 @@ export default function WebViewMode({ onOpenResume, onOpenContact, onSwitchToSli
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-xs font-mono text-emerald-600 dark:text-emerald-400 tracking-wider uppercase font-bold">
-              HONORS & AWARDS · 成果荣誉与认证
+              HONORS & AWARDS · ACHIEVEMENTS & CERTIFICATIONS
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-1">
               Recognitions & Certifications
